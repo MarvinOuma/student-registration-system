@@ -30,6 +30,8 @@ This is my JavaFX project for the Advanced Object Oriented Programming unit. The
   handles database connection and SQL queries
 - `Person.java` and `Student.java`
   used to show OOP
+- `DatabaseConfig.java`
+  stores the database connection details
 - `schema.sql`
   creates the tables
 
@@ -77,9 +79,3 @@ Or if Maven is not yet on your path:
 - PostgreSQL is connected using JDBC
 - CSS was used to improve the interface a bit
 - `TableView` was used to display enrolled students
-
-## Report
-
-I added a simple report template in:
-
-`docs/REPORT_TEMPLATE.md`
