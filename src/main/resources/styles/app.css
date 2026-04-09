@@ -1,0 +1,86 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: linear-gradient(to bottom right, #f4f8ff, #eef7f2);
+}
+
+.app-shell {
+    -fx-background-color: transparent;
+}
+
+.app-title {
+    -fx-font-size: 26px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #17324d;
+}
+
+.app-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #5b7083;
+}
+
+.card, .info-card {
+    -fx-background-color: rgba(255, 255, 255, 0.92);
+    -fx-background-radius: 16px;
+    -fx-border-radius: 16px;
+    -fx-border-color: #d9e7f3;
+    -fx-padding: 18px;
+}
+
+.section-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #17324d;
+}
+
+.field-label {
+    -fx-font-weight: 600;
+    -fx-text-fill: #244866;
+}
+
+.text-field, .combo-box {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #bfd3e6;
+    -fx-padding: 8px 10px;
+}
+
+.button {
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-font-weight: 600;
+    -fx-padding: 10px 16px;
+}
+
+.primary-button {
+    -fx-background-color: #1f7a8c;
+    -fx-text-fill: white;
+}
+
+.secondary-button {
+    -fx-background-color: #d9e7f3;
+    -fx-text-fill: #17324d;
+}
+
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 0.95);
+    -fx-background-radius: 14px;
+    -fx-border-radius: 14px;
+    -fx-border-color: #d9e7f3;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #dceef2;
+}
+
+.status-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+}
+
+.status-success {
+    -fx-text-fill: #1c6b3e;
+}
+
+.status-error {
+    -fx-text-fill: #b02a37;
+}
